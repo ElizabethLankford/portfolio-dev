@@ -26,7 +26,7 @@ function Hero() {
             className="home-hero__social-icon-link"
           >
             <img
-              src="src/assets/img/linkedin-ico.png"
+              src="/img/linkedin-ico.png"
               alt="icon"
               className="home-hero__social-icon"
             />
@@ -39,7 +39,7 @@ function Hero() {
             className="home-hero__social-icon-link"
           >
             <img
-              src="src/assets/img/github-ico.png"
+              src="/img/github-ico.png"
               alt="icon"
               className="home-hero__social-icon"
             />
@@ -51,7 +51,7 @@ function Hero() {
             className="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
           >
             <img
-              src="src/assets/svg/envelope-solid.svg"
+              src="/svg/envelope-solid.svg"
               alt="icon"
               className="home-hero__social-icon"
             />

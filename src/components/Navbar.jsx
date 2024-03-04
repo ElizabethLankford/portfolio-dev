@@ -14,7 +14,7 @@ function Navbar() {
         <div className="header__logo-container">
           <div className="header__logo-img-cont">
             <img
-              src="../../public/img/ProfilePic.jpeg"
+              src="/img/ProfilePic.jpeg"
               alt="Logo Image"
               className="header__logo-img"
             />

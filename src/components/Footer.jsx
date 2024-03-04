@@ -15,7 +15,7 @@ function Footer() {
               >
                 <img
                   className="main-footer__icon"
-                  src="/src/assets/img/linkedin-ico.png"
+                  src="/img/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
@@ -26,7 +26,7 @@ function Footer() {
               >
                 <img
                   className="main-footer__icon"
-                  src="/src/assets/img/github-ico.png"
+                  src="/img/github-ico.png"
                   alt="icon"
                 />
               </a>
