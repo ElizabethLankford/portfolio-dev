@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +14,7 @@ function Navbar() {
         <div className="header__logo-container">
           <div className="header__logo-img-cont">
             <img
-              src="/src/assets/img/ProfilePic.jpeg"
+              src="../../public/img/ProfilePic.jpeg"
               alt="Logo Image"
               className="header__logo-img"
             />
