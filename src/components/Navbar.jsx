@@ -6,7 +6,6 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
   };
   return (
     <header className="header">
@@ -62,12 +61,13 @@ function Navbar() {
           </ul>
           <div className="header__main-ham-menu-cont" onClick={toggleMenu}>
             <img
-              src="/src/assets/svg/ham-menu.svg"
+              src="svg/ham-menu.svg"
               alt="hamburger menu"
               className="header__main-ham-menu"
             />
+
             <img
-              src="/src/assets/svg/ham-menu-close.svg"
+              src="svg/ham-menu-close.svg"
               alt="hamburger menu close"
               className="header__main-ham-menu-close d-none"
             />
