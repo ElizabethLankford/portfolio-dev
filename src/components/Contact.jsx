@@ -41,6 +41,12 @@ function Contact() {
                 rows="4"
                 placeholder="message..."
               ></textarea>
+              <input type="hidden" name="_captcha" value="false"></input>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://elizabeth-lankford.com/#contact/thanks.html"
+              ></input>
               <button className="btn--bg btn" type="submit">
                 Send
               </button>

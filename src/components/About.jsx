@@ -10,15 +10,16 @@ function About() {
               Marine Corps in 2015. Throughout this period, I mastered key
               skills including technical troubleshooting and team collaboration.
               Once my service ended, I continued my career in the IT field while
-              working multiple jobs focusing in customer service, system
+              working multiple jobs focusing on customer service, system
               administration, and device management. After approximately 6 years
               in the IT field, I had a strong desire to use more of my
               creativity and troubleshooting skills. I chose to transition to
               web design and development because it allows me to incorporate my
-              creativity while still utilizing some of the key technical skills
-              I learned throughout my experience in IT. I graduated with a
-              Bachelor’s degree in Digital Media Design. Additionally, I have
-              been working through the Grace Hopper Fullstack Web development
+              creativity while still utilizing some of the key technical skills.
+              I learned throughout my experience in IT. I graduated from
+              National University with a Bachelor’s degree in digital media
+              design. Additionally, I obtained my Full-stack Web Development
+              certificate through the Grace Hopper Full stack Web development
               program to further my knowledge of the field and master the
               necessary skills.
             </p>
