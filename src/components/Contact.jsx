@@ -77,11 +77,6 @@ function Contact() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
-              <input
-                type="hidden"
-                name="_next"
-                value="https://elizabeth-lankford.com/#contact/thanks.html"
-              ></input>
               <button className="btn--bg btn" type="submit">
                 Send
               </button>
