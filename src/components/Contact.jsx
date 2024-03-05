@@ -23,7 +23,7 @@ function Contact() {
       }),
     })
       .then((res) => res.json())
-      .then((data) => console.log(data))
+      .then((data) => alert(data.message))
       .catch((error) => console.log(error));
 
     setName("");
@@ -79,12 +79,7 @@ function Contact() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
-              {/* <input
-                type="hidden"
-                name="_next"
-                value="https://elizabeth-lankford.com/"
-              ></input> */}
-              <button className="btn--bg btn" type="submit">
+              <button className="btn--bg btn smt" type="submit">
                 Send
               </button>
             </form>

@@ -28,7 +28,7 @@ export default [
       "JavaScript auto-runner game developed with other amazing developers.",
     fullDes:
       "Developed with React, React Router, Redux, Pixi.js, Matter.js, Express.js, PostgreSQL, Node.js, and Tailwind CSS. State management for user and session token handled with Redux. Dynamic navigation and routing implemented with React Router and Express.js.The database is built with PostgreSQL.",
-    img: "/img/Macbook-ctrlaltdivas.png",
+    img: "/img/mobilea-desktop-ctrlaltdivas.png",
     githubUrl: "https://github.com/Ctrl-Alt-Divas/CTRL-ALT-Divas.Game",
     liveUrl: "https://ctrl-alt-divas-game.onrender.com/",
     used: [

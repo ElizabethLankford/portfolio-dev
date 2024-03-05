@@ -35,7 +35,7 @@ function Footer() {
           <div className="main-footer__row main-footer__row-2">
             <h4 className="heading heading-sm text-lt">Elizabeth Lankford</h4>
             <p className="main-footer__short-desc">
-              Frontend Developer with a passion for continuous learning and
+              Fullstack Developer with a passion for continuous learning and
               creating.
             </p>
           </div>
