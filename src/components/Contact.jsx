@@ -6,9 +6,10 @@ function Contact() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    fetch("https://formsubmit.co/elizabethlankford1@gmail.com", {
+
+    await fetch("https://formsubmit.co/ajax/elizabethlankford1@gmail.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,6 +25,7 @@ function Contact() {
       .then((res) => res.json())
       .then((data) => console.log(data))
       .catch((error) => console.log(error));
+
     setName("");
     setEmail("");
     setPhone("");
@@ -77,6 +79,11 @@ function Contact() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
+              {/* <input
+                type="hidden"
+                name="_next"
+                value="https://elizabeth-lankford.com/"
+              ></input> */}
               <button className="btn--bg btn" type="submit">
                 Send
               </button>
