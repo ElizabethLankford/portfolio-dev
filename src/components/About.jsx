@@ -8,20 +8,18 @@ function About() {
             <p>
               My professional career began in the IT field when I joined the
               Marine Corps in 2015. Throughout this period, I mastered key
-              skills including technical troubleshooting and team collaboration.
-              Once my service ended, I continued my career in the IT field while
-              working multiple jobs focusing on customer service, system
-              administration, and device management. After approximately 6 years
-              in the IT field, I had a strong desire to use more of my
-              creativity and troubleshooting skills. I chose to transition to
-              web design and development because it allows me to incorporate my
-              creativity while still utilizing some of the key technical skills.
-              I learned throughout my experience in IT. I graduated from
-              National University with a Bachelor’s degree in digital media
-              design. Additionally, I obtained my Full-stack Web Development
-              certificate through the Grace Hopper Full stack Web development
-              program to further my knowledge of the field and master the
-              necessary skills.
+              skills including technical troubleshooting, problem-solving, and
+              team collaboration. Once my military service ended, I continued
+              working in IT support, system administration, and mobile device
+              management roles. Driven by a passion for innovation, I
+              transitioned to web design and development, merging creativity
+              with technical aptitude. This allowed me to incorporate my 7+
+              years of technical expertise and my personal creativity. I
+              graduated in 2023 from National University with a Bachelor of Arts
+              degree in digital media design. Additionally, I obtained my
+              Full-stack Web Development certificate through the Grace Hopper
+              program at Fullstack Academy to further my knowledge of the field
+              and master the necessary software development skills.
             </p>
             <a
               href="./#contact"
