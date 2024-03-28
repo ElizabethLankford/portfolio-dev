@@ -39,8 +39,11 @@ function About() {
               <div className="skills__skill">React</div>
               <div className="skills__skill">React Router</div>
               <div className="skills__skill">Redux</div>
+              <div className="skills__skill">Node.js</div>
+              <div className="skills__skill">REST API</div>
               <div className="skills__skill">Express.js</div>
               <div className="skills__skill">PostgreSQL</div>
+              <div className="skills__skill">Git</div>
               <div className="skills__skill">GitHub</div>
               <div className="skills__skill">Figma</div>
               <div className="skills__skill">Adobe Illustrator</div>
