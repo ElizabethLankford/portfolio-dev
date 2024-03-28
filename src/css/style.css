@@ -162,8 +162,8 @@ textarea {
     background: #9DD9D2;
     color: #fff; }
   .btn--theme-inv {
-    color: #2D3142;
-    background: #edf6f9;
+    color: #fff;
+    background: #2d3142;
     border: 2px solid #2D3142;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
