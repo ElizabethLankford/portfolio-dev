@@ -47,7 +47,7 @@ function Hero() {
         </div>
         <div className="home-hero__social">
           <a
-            href="mailto:elizabethlankford1@gmail.com"
+            href="/#contact"
             className="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
           >
             <img
