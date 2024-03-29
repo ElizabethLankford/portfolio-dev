@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <footer className="main-footer">
@@ -13,22 +16,14 @@ function Footer() {
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/elizabethlankford/"
               >
-                <img
-                  className="main-footer__icon"
-                  src="/img/linkedin-ico.png"
-                  alt="icon"
-                />
+                <FontAwesomeIcon icon={faLinkedin} size="2xl" />
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/ElizabethLankford"
               >
-                <img
-                  className="main-footer__icon"
-                  src="/img/github-ico.png"
-                  alt="icon"
-                />
+                <FontAwesomeIcon icon={faGithub} size="2xl" />
               </a>
             </div>
           </div>

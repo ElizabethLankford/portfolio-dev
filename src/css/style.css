@@ -288,8 +288,7 @@ form label{
     margin-top: 5rem;
     text-align: center; }
 
-.about {
-  background: #fafafa; }
+
 .contact-btn{
   display: flex;
   justify-content: center;
@@ -654,13 +653,16 @@ form label{
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 0; }
+    padding: 3rem 0;
+    
+  }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
         padding: 6rem 0; } }
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
-        display: block; } }
+        display: block; 
+        } }
   .main-footer__row-1 {
     order: 2; }
     @media only screen and (max-width: 56.25em) {
@@ -679,7 +681,10 @@ form label{
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
-    margin-top: 2rem; }
+    margin-top: 2rem; 
+    display: flex;
+    justify-content: space-around;
+}
   .main-footer__icon {
     margin-right: 1rem;
     width: 2.5rem; }

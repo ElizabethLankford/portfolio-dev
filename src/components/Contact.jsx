@@ -1,14 +1,15 @@
 import { useState } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-
+  const [isLoading, setIsLoading] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setIsLoading(true);
     await fetch("https://formsubmit.co/ajax/elizabethlankford1@gmail.com", {
       method: "POST",
       headers: {
@@ -23,7 +24,9 @@ function Contact() {
       }),
     })
       .then((res) => res.json())
-      .then((data) => alert(data.message))
+      .then((data) => {
+        alert(data.message), setIsLoading(false);
+      })
       .catch((error) => console.log(error));
 
     setName("");
@@ -80,7 +83,13 @@ function Contact() {
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
               <button className="btn--bg btn smt" type="submit">
-                Send
+                {isLoading ? (
+                  <p>
+                    <FontAwesomeIcon icon={faPaperPlane} beat /> Sending...
+                  </p>
+                ) : (
+                  "Send"
+                )}
               </button>
             </form>
           </div>
