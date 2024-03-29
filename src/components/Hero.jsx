@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Hero() {
   return (
     <section id="hero" className="home-hero">
@@ -25,11 +29,7 @@ function Hero() {
             target="_blank"
             className="home-hero__social-icon-link"
           >
-            <img
-              src="/img/linkedin-ico.png"
-              alt="icon"
-              className="home-hero__social-icon"
-            />
+            <FontAwesomeIcon icon={faLinkedin} size="2xl" />
           </a>
         </div>
         <div className="home-hero__social">
@@ -38,11 +38,7 @@ function Hero() {
             target="_blank"
             className="home-hero__social-icon-link"
           >
-            <img
-              src="/img/github-ico.png"
-              alt="icon"
-              className="home-hero__social-icon"
-            />
+            <FontAwesomeIcon icon={faGithub} size="2xl" />
           </a>
         </div>
         <div className="home-hero__social">
@@ -50,11 +46,7 @@ function Hero() {
             href="/#contact"
             className="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
           >
-            <img
-              src="/svg/envelope-solid.svg"
-              alt="icon"
-              className="home-hero__social-icon"
-            />
+            <FontAwesomeIcon icon={faEnvelope} size="2xl" />
           </a>
         </div>
       </div>

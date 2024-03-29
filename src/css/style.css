@@ -255,7 +255,8 @@ form label{
       .home-hero__mouse-scroll-cont {
         display: none; } }
   .home-hero__social {
-    width: 5rem; }
+    width: 6.2rem;
+  padding: 1em; }
   .home-hero__social-icon-link {
     width: 100%;
     display: block;
