@@ -6,12 +6,14 @@ function Projects() {
     return (
       <div key={item.id} className="projects__row">
         <div className="projects__row-img-cont">
-          <img
-            src={item.img}
-            alt="Software Screenshot"
-            className="projects__row-img"
-            loading="lazy"
-          />
+          <Link to={`/${item.id}`}>
+            <img
+              src={item.img}
+              alt="Software Screenshot"
+              className="projects__row-img"
+              loading="lazy"
+            />
+          </Link>
         </div>
         <div className="projects__row-content">
           <h3 className="projects__row-content-title">{item.name}</h3>
