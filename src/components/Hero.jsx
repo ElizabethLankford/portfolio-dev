@@ -11,9 +11,9 @@ function Hero() {
         </h1>
         <div className="home-hero__info">
           <p className="text-primary">
-            I am a passionate fullstack developer based in North Dallas, TX. I
-            have a passion for creating, learning, and growing my developer
-            skills.
+            I am a passionate full stack software engineer based out of North
+            Dallas, TX. I have a passion for creating, learning, and growing my
+            developer skills.
           </p>
         </div>
         <div className="home-hero__cta">

@@ -95,7 +95,7 @@ function Navbar() {
             <li className="header__sm-menu-link">
               <a
                 target="_blank"
-                href="https://docs.google.com/document/d/1WLUyWUN92N6_Ep7Uncjtpfx-jvgLfic3/edit?usp=sharing&ouid=107381376841140129778&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1rlDQNF_dWaNd92Ge9EZ23DBo_gFO7kCT/edit?usp=sharing&ouid=103252723978037811001&rtpof=true&sd=true"
               >
                 Resume
               </a>
